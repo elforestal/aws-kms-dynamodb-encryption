@@ -1,13 +1,4 @@
-<img src="https://cdn.prod.website-files.com/677c400686e724409a5a7409/6790ad949cf622dc8dcd9fe4_nextwork-logo-leather.svg" alt="NextWork" width="300" />
 
-# Encrypt Data with AWS KMS
-
-**Project Link:** [View Project](http://nextwork.ai/projects/aws-security-kms)
-
-**Author:** E L  
-**Email:** ojidbs1@gmail.com
-
----
 
 ![Image](http://nextwork.ai/passionate_rose_serene_emblica/uploads/aws-security-kms_w0x1y2z3)
 
