@@ -1,9 +1,5 @@
 
 
-![Image](http://nextwork.ai/passionate_rose_serene_emblica/uploads/aws-security-kms_w0x1y2z3)
-
----
-
 ## Introducing Today's Project!
 
 In this project, I will demonstrate how to protect sensitive data at rest in AWS by encrypting a DynamoDB table with a customer-managed key (CMK) in AWS Key Management Service (KMS). The goal is to enforce least-privilege access to encrypted data: 
