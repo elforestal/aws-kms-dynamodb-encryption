@@ -1,4 +1,57 @@
-
+#mermaid-rlf-r27 { font-family: "Anthropic Sans", system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 16px; fill: rgb(25, 25, 25); }
+#mermaid-rlf-r27 .edge-animation-slow { stroke-dashoffset: 900; animation: 50s linear 0s infinite normal none running dash; stroke-linecap: round; stroke-dasharray: 9, 5 !important; }
+#mermaid-rlf-r27 .edge-animation-fast { stroke-dashoffset: 900; animation: 20s linear 0s infinite normal none running dash; stroke-linecap: round; stroke-dasharray: 9, 5 !important; }
+#mermaid-rlf-r27 .error-icon { fill: rgb(204, 120, 92); }
+#mermaid-rlf-r27 .error-text { fill: rgb(51, 135, 163); stroke: rgb(51, 135, 163); }
+#mermaid-rlf-r27 .edge-thickness-normal { stroke-width: 1px; }
+#mermaid-rlf-r27 .edge-thickness-thick { stroke-width: 3.5px; }
+#mermaid-rlf-r27 .edge-pattern-solid { stroke-dasharray: 0; }
+#mermaid-rlf-r27 .edge-thickness-invisible { stroke-width: 0; fill: none; }
+#mermaid-rlf-r27 .edge-pattern-dashed { stroke-dasharray: 3; }
+#mermaid-rlf-r27 .edge-pattern-dotted { stroke-dasharray: 2; }
+#mermaid-rlf-r27 .marker { fill: rgb(145, 145, 141); stroke: rgb(145, 145, 141); }
+#mermaid-rlf-r27 .marker.cross { stroke: rgb(145, 145, 141); }
+#mermaid-rlf-r27 svg { font-family: "Anthropic Sans", system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 16px; }
+#mermaid-rlf-r27 p { margin: 0px; }
+#mermaid-rlf-r27 .label { font-family: "Anthropic Sans", system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; color: rgb(25, 25, 25); }
+#mermaid-rlf-r27 .cluster-label text { fill: rgb(51, 135, 163); }
+#mermaid-rlf-r27 .cluster-label span { color: rgb(51, 135, 163); }
+#mermaid-rlf-r27 .cluster-label span p { background-color: transparent; }
+#mermaid-rlf-r27 .label text, #mermaid-rlf-r27 span { fill: rgb(25, 25, 25); color: rgb(25, 25, 25); }
+#mermaid-rlf-r27 .node rect, #mermaid-rlf-r27 .node circle, #mermaid-rlf-r27 .node ellipse, #mermaid-rlf-r27 .node polygon, #mermaid-rlf-r27 .node path { fill: rgb(240, 240, 235); stroke: rgb(217, 216, 213); stroke-width: 1px; }
+#mermaid-rlf-r27 .rough-node .label text, #mermaid-rlf-r27 .node .label text, #mermaid-rlf-r27 .image-shape .label, #mermaid-rlf-r27 .icon-shape .label { text-anchor: middle; }
+#mermaid-rlf-r27 .node .katex path { fill: rgb(0, 0, 0); stroke: rgb(0, 0, 0); stroke-width: 1px; }
+#mermaid-rlf-r27 .rough-node .label, #mermaid-rlf-r27 .node .label, #mermaid-rlf-r27 .image-shape .label, #mermaid-rlf-r27 .icon-shape .label { text-align: center; }
+#mermaid-rlf-r27 .node.clickable { cursor: pointer; }
+#mermaid-rlf-r27 .root .anchor path { stroke-width: 0; stroke: rgb(145, 145, 141); fill: rgb(145, 145, 141) !important; }
+#mermaid-rlf-r27 .arrowheadPath { fill: rgb(11, 11, 11); }
+#mermaid-rlf-r27 .edgePath .path { stroke: rgb(145, 145, 141); stroke-width: 1px; }
+#mermaid-rlf-r27 .flowchart-link { stroke: rgb(145, 145, 141); fill: none; }
+#mermaid-rlf-r27 .edgeLabel { background-color: rgb(245, 230, 216); text-align: center; }
+#mermaid-rlf-r27 .edgeLabel p { background-color: rgb(245, 230, 216); }
+#mermaid-rlf-r27 .edgeLabel rect { opacity: 0.5; background-color: rgb(245, 230, 216); fill: rgb(245, 230, 216); }
+#mermaid-rlf-r27 .labelBkg { background-color: rgba(245, 230, 216, 0.5); }
+#mermaid-rlf-r27 .cluster rect { fill: rgb(204, 120, 92); stroke: rgb(138, 115, 107); stroke-width: 1px; }
+#mermaid-rlf-r27 .cluster text { fill: rgb(51, 135, 163); }
+#mermaid-rlf-r27 .cluster span { color: rgb(51, 135, 163); }
+#mermaid-rlf-r27 div.mermaidTooltip { position: absolute; text-align: center; max-width: 200px; padding: 2px; font-family: "Anthropic Sans", system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 12px; background: rgb(204, 120, 92); border: 1px solid rgb(138, 115, 107); border-radius: 2px; pointer-events: none; z-index: 100; }
+#mermaid-rlf-r27 .flowchartTitleText { text-anchor: middle; font-size: 18px; fill: rgb(25, 25, 25); }
+#mermaid-rlf-r27 rect.text { fill: none; stroke-width: 0; }
+#mermaid-rlf-r27 .icon-shape, #mermaid-rlf-r27 .image-shape { background-color: rgb(245, 230, 216); text-align: center; }
+#mermaid-rlf-r27 .icon-shape p, #mermaid-rlf-r27 .image-shape p { background-color: rgb(245, 230, 216); padding: 2px; }
+#mermaid-rlf-r27 .icon-shape .label rect, #mermaid-rlf-r27 .image-shape .label rect { opacity: 0.5; background-color: rgb(245, 230, 216); fill: rgb(245, 230, 216); }
+#mermaid-rlf-r27 .label-icon { display: inline-block; height: 1em; overflow: visible; vertical-align: -0.125em; }
+#mermaid-rlf-r27 .node .label-icon path { fill: currentcolor; stroke: revert; stroke-width: revert; }
+#mermaid-rlf-r27 .node .neo-node { stroke: rgb(217, 216, 213); }
+#mermaid-rlf-r27 [data-look="neo"].node rect, #mermaid-rlf-r27 [data-look="neo"].cluster rect, #mermaid-rlf-r27 [data-look="neo"].node polygon { stroke: url("#mermaid-rlf-r27-gradient"); filter: drop-shadow(rgb(185, 185, 185) 1px 2px 2px); }
+#mermaid-rlf-r27 [data-look="neo"].node path { stroke: url("#mermaid-rlf-r27-gradient"); stroke-width: 1px; }
+#mermaid-rlf-r27 [data-look="neo"].node .outer-path { filter: drop-shadow(rgb(185, 185, 185) 1px 2px 2px); }
+#mermaid-rlf-r27 [data-look="neo"].node .neo-line path { stroke: rgb(217, 216, 213); filter: none; }
+#mermaid-rlf-r27 [data-look="neo"].node circle { stroke: url("#mermaid-rlf-r27-gradient"); filter: drop-shadow(rgb(185, 185, 185) 1px 2px 2px); }
+#mermaid-rlf-r27 [data-look="neo"].node circle .state-start { fill: rgb(0, 0, 0); }
+#mermaid-rlf-r27 [data-look="neo"].icon-shape .icon { fill: url("#mermaid-rlf-r27-gradient"); filter: drop-shadow(rgb(185, 185, 185) 1px 2px 2px); }
+#mermaid-rlf-r27 [data-look="neo"].icon-shape .icon-neo path { stroke: url("#mermaid-rlf-r27-gradient"); filter: drop-shadow(rgb(185, 185, 185) 1px 2px 2px); }
+#mermaid-rlf-r27 :root { --mermaid-font-family: "Anthropic Sans",system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; }AWS Accountencrypts✅ kms:Decrypt allowedreads data❌ kms:Decrypt DENIEDaccess blocked🔐 AWS KMSCustomer-Managed Key🗄️ DynamoDB TableEncrypted at Rest👤 IAM Admin UserKey User + Admin👤 IAM Test UserDynamoDB access, NO key
 
 ## Introducing Today's Project!
 
