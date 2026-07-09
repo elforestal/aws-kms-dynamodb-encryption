@@ -10,7 +10,18 @@ This is defense in depth — encryption at rest plus key-policy access control �
 
 ### Tools and concepts
 
-Services I used include AWS KMS (to create and manage a customer-managed encryption key), Amazon DynamoDB (encrypted at rest with that key), and AWS IAM (to manage users and permissions). Key concepts I learnt include encryption at rest, symmetric encryption, customer-managed keys vs. AWS-managed keys, key policies and how they control kms:Decrypt access, transparent data encryption, and — most importantly — defense in depth: how encryption and IAM work as two independent layers, so that access to a resource doesn't automatically grant access to the data inside it.
+**Services used**
+- 🔐 **AWS KMS** — created and managed a customer-managed encryption key (CMK)
+- 🗄️ **Amazon DynamoDB** — encrypted at rest with the KMS key
+- 👤 **AWS IAM** — managed users and permissions
+
+**Key concepts**
+- Encryption at rest
+- Symmetric encryption
+- Customer-managed keys vs. AWS-managed keys
+- Key policies and how they control `kms:Decrypt` access
+- Transparent data encryption
+- **Defense in depth** — encryption and IAM as two independent layers, so access to a *resource* doesn't grant access to the *data* inside it
 
 ### Project reflection
 
