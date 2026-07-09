@@ -1,3 +1,4 @@
+```mermaid
 flowchart LR
     subgraph AWS["AWS Account"]
         KMS["AWS KMS - Customer-Managed Key"]
@@ -6,7 +7,7 @@ flowchart LR
     end
 
     Admin["IAM Admin User - Key User plus Admin"]
-    Test["IAM Test User - DynamoDB access, NO key access"]
+    Test["IAM Test User - DynamoDB access NO key access"]
 
     Admin -->|"kms:Decrypt ALLOWED - reads data"| DDB
     Test -.->|"kms:Decrypt DENIED - access blocked"| DDB
@@ -15,6 +16,7 @@ flowchart LR
     style DDB fill:#fef7e0,stroke:#f9ab00,color:#000
     style Admin fill:#e6f4ea,stroke:#34a853,color:#000
     style Test fill:#fce8e6,stroke:#ea4335,color:#000
+```
 
 ## Introducing Today's Project!
 
